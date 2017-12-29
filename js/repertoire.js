@@ -10,7 +10,7 @@ var repertoire = (function() {
     self = this;
 //    var json = list + '.json';
     var n = list.lastIndexOf('/');
-    var json = list.substring(0, n) + '/json' + list.substring(n);
+    var json = list.substring(0, n) + '/json' + list.substring(n) + '.json';
     console.log('json=' + json);
     var xhr = new XMLHttpRequest();
     // Асинхронный запрос
