@@ -8,7 +8,9 @@ var repertoire = (function() {
   Repertoire.prototype.init = function(list) {
     // чтение списка, репертуара с актами, и отрисовка
     self = this;
-    var json = '/json' + list + '.json';
+//    var json = list + '.json';
+    var n = list.lastIndexOf('/');
+    var json = list.substring(0, n) + '/json' + list.substring(n);
     console.log('json=' + json);
     var xhr = new XMLHttpRequest();
     // Асинхронный запрос
