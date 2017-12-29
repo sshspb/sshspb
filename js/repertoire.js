@@ -9,6 +9,7 @@ var repertoire = (function() {
     // чтение списка, репертуара с актами, и отрисовка
     self = this;
     var json = '/json' + list + '.json';
+    console.log('json=' + json);
     var xhr = new XMLHttpRequest();
     // Асинхронный запрос
     xhr.open('GET', json, true);

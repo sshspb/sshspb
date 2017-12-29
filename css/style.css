@@ -10,12 +10,12 @@ html, body, div, p, button, tbody, tfoot, thead, tr, th, td, audio {
   font-family: 'PT Sans'; 
   font-weight: normal;
   font-style: normal;
-	src: url('/fonts/PTSansWeb/pts55f_w.eot'); 
+	src: url('/fonts/pts55f_w.eot'); 
 	src: local('PT Sans'), local('PTSans-Regular'),
-       url('/fonts/PTSansWeb/PTS55F_W.eot?#iefix') format('embedded-opentype'), 
-       url('/fonts/PTSansWeb/PTS55F_W.woff') format('woff'),
-       url('/fonts/PTSansWeb/PTS55F_W.ttf') format('truetype'), 
-       url('/fonts/PTSansWeb/PTS55F_W.svg#PTSans-Regular') format('svg');
+       url('/fonts/PTS55F_W.eot?#iefix') format('embedded-opentype'), 
+       url('/fonts/PTS55F_W.woff') format('woff'),
+       url('/fonts/PTS55F_W.ttf') format('truetype'), 
+       url('/fonts/PTS55F_W.svg#PTSans-Regular') format('svg');
 }
 body {
   font-family: 'PT Sans';
